@@ -9,49 +9,48 @@ using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Description;
 using ApiDemo.DAL;
-using ApiDemo.Helper;
 using ApiDemo.Models;
 
 namespace ApiDemo.Controllers
 {
-    public class DepartmentController : ApiController
+    public class EmployeeController : ApiController
     {
         private ApiDemoContext db = new ApiDemoContext();
-        [Auth]
-        // GET: api/Department
-        public IQueryable<Department> GetDepartments()
+
+        // GET: api/Employee
+        public IQueryable<Employee> GetEmployees()
         {
-            return db.Departments;
+            return db.Employees;
         }
 
-        // GET: api/Department/5
-        [ResponseType(typeof(Department))]
-        public IHttpActionResult GetDepartment(int id)
+        // GET: api/Employee/5
+        [ResponseType(typeof(Employee))]
+        public IHttpActionResult GetEmployee(int id)
         {
-            Department department = db.Departments.Find(id);
-            if (department == null)
+            Employee employee = db.Employees.Find(id);
+            if (employee == null)
             {
                 return NotFound();
             }
 
-            return Ok(department);
+            return Ok(employee);
         }
 
-        // PUT: api/Department/5
+        // PUT: api/Employee/5
         [ResponseType(typeof(void))]
-        public IHttpActionResult PutDepartment(int id, Department department)
+        public IHttpActionResult PutEmployee(int id, Employee employee)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            if (id != department.Id)
+            if (id != employee.Id)
             {
                 return BadRequest();
             }
 
-            db.Entry(department).State = EntityState.Modified;
+            db.Entry(employee).State = EntityState.Modified;
 
             try
             {
@@ -59,7 +58,7 @@ namespace ApiDemo.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!DepartmentExists(id))
+                if (!EmployeeExists(id))
                 {
                     return NotFound();
                 }
@@ -72,35 +71,35 @@ namespace ApiDemo.Controllers
             return StatusCode(HttpStatusCode.NoContent);
         }
 
-        // POST: api/Department
-        [ResponseType(typeof(Department))]
-        public IHttpActionResult PostDepartment(Department department)
+        // POST: api/Employee
+        [ResponseType(typeof(Employee))]
+        public IHttpActionResult PostEmployee(Employee employee)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            db.Departments.Add(department);
+            db.Employees.Add(employee);
             db.SaveChanges();
 
-            return CreatedAtRoute("DefaultApi", new { id = department.Id }, department);
+            return CreatedAtRoute("DefaultApi", new { id = employee.Id }, employee);
         }
 
-        // DELETE: api/Department/5
-        [ResponseType(typeof(Department))]
-        public IHttpActionResult DeleteDepartment(int id)
+        // DELETE: api/Employee/5
+        [ResponseType(typeof(Employee))]
+        public IHttpActionResult DeleteEmployee(int id)
         {
-            Department department = db.Departments.Find(id);
-            if (department == null)
+            Employee employee = db.Employees.Find(id);
+            if (employee == null)
             {
                 return NotFound();
             }
 
-            db.Departments.Remove(department);
+            db.Employees.Remove(employee);
             db.SaveChanges();
 
-            return Ok(department);
+            return Ok();
         }
 
         protected override void Dispose(bool disposing)
@@ -112,9 +111,9 @@ namespace ApiDemo.Controllers
             base.Dispose(disposing);
         }
 
-        private bool DepartmentExists(int id)
+        private bool EmployeeExists(int id)
         {
-            return db.Departments.Count(e => e.Id == id) > 0;
+            return db.Employees.Count(e => e.Id == id) > 0;
         }
     }
 }

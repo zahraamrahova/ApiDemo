@@ -10,7 +10,7 @@ namespace ApiDemo.Models
     {
         public int Id { get; set; }
 
-        public int DepartmentId { get; set; }
+        public int ?DepartmentId { get; set; }
         [Required]
         [StringLength(150)]
         public string Name { get; set; }
@@ -23,7 +23,7 @@ namespace ApiDemo.Models
         [Required]
         [StringLength(250)]
         public string Password { get; set; }
-        [Required]
+      
         [StringLength(250)]
         public string Token { get; set; }
         public Boolean ?Status { get; set; }

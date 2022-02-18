@@ -71,4 +71,17 @@ D:\Zahra Amrahova Programming Lesson\17.02.2022\ApiDemo\ApiDemo\obj\Debug\ApiDem
 D:\Zahra Amrahova Programming Lesson\17.02.2022\ApiDemo\ApiDemo\obj\Debug\ApiDemo.Migrations.CreateDatabase.resources
 D:\Zahra Amrahova Programming Lesson\17.02.2022\ApiDemo\ApiDemo\obj\Debug\ApiDemo.csproj.GenerateResource.cache
 D:\Zahra Amrahova Programming Lesson\17.02.2022\ApiDemo\ApiDemo\obj\Debug\ApiDemo.Migrations.AddRequired.resources
+D:\Zahra Amrahova Programming Lesson\17.02.2022\ApiDemo\ApiDemo\bin\Microsoft.Web.Infrastructure.dll
+D:\Zahra Amrahova Programming Lesson\17.02.2022\ApiDemo\ApiDemo\bin\System.Web.Helpers.dll
+D:\Zahra Amrahova Programming Lesson\17.02.2022\ApiDemo\ApiDemo\bin\System.Web.Razor.dll
+D:\Zahra Amrahova Programming Lesson\17.02.2022\ApiDemo\ApiDemo\bin\System.Web.WebPages.Deployment.dll
+D:\Zahra Amrahova Programming Lesson\17.02.2022\ApiDemo\ApiDemo\bin\System.Web.WebPages.dll
+D:\Zahra Amrahova Programming Lesson\17.02.2022\ApiDemo\ApiDemo\bin\System.Web.WebPages.Razor.dll
+D:\Zahra Amrahova Programming Lesson\17.02.2022\ApiDemo\ApiDemo\bin\System.Web.Helpers.xml
+D:\Zahra Amrahova Programming Lesson\17.02.2022\ApiDemo\ApiDemo\bin\System.Web.Razor.xml
+D:\Zahra Amrahova Programming Lesson\17.02.2022\ApiDemo\ApiDemo\bin\System.Web.WebPages.xml
+D:\Zahra Amrahova Programming Lesson\17.02.2022\ApiDemo\ApiDemo\bin\System.Web.WebPages.Deployment.xml
+D:\Zahra Amrahova Programming Lesson\17.02.2022\ApiDemo\ApiDemo\bin\System.Web.WebPages.Razor.xml
+D:\Zahra Amrahova Programming Lesson\17.02.2022\ApiDemo\ApiDemo\obj\Debug\ApiDemo.Migrations.makeDepartmentIdNullable.resources
+D:\Zahra Amrahova Programming Lesson\17.02.2022\ApiDemo\ApiDemo\obj\Debug\ApiDemo.Migrations.deleterequiredfromToken.resources
 D:\Zahra Amrahova Programming Lesson\17.02.2022\ApiDemo\ApiDemo\obj\Debug\ApiDemo.csproj.AssemblyReference.cache
