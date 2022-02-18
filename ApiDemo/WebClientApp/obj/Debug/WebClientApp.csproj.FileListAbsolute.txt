@@ -76,3 +76,4 @@ D:\Zahra Amrahova Programming Lesson\17.02.2022\ApiDemo\WebClientApp\obj\Debug\W
 D:\Zahra Amrahova Programming Lesson\17.02.2022\ApiDemo\WebClientApp\obj\Debug\WebClientApp.csproj.CopyComplete
 D:\Zahra Amrahova Programming Lesson\17.02.2022\ApiDemo\WebClientApp\obj\Debug\WebClientApp.dll
 D:\Zahra Amrahova Programming Lesson\17.02.2022\ApiDemo\WebClientApp\obj\Debug\WebClientApp.pdb
+D:\Zahra Amrahova Programming Lesson\17.02.2022\ApiDemo\WebClientApp\obj\Debug\WebClientApp.csproj.AssemblyReference.cache
