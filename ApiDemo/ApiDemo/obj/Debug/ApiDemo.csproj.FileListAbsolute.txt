@@ -84,4 +84,6 @@ D:\Zahra Amrahova Programming Lesson\17.02.2022\ApiDemo\ApiDemo\bin\System.Web.W
 D:\Zahra Amrahova Programming Lesson\17.02.2022\ApiDemo\ApiDemo\bin\System.Web.WebPages.Razor.xml
 D:\Zahra Amrahova Programming Lesson\17.02.2022\ApiDemo\ApiDemo\obj\Debug\ApiDemo.Migrations.makeDepartmentIdNullable.resources
 D:\Zahra Amrahova Programming Lesson\17.02.2022\ApiDemo\ApiDemo\obj\Debug\ApiDemo.Migrations.deleterequiredfromToken.resources
-D:\Zahra Amrahova Programming Lesson\17.02.2022\ApiDemo\ApiDemo\obj\Debug\ApiDemo.csproj.AssemblyReference.cache
+D:\Zahra Amrahova Programming Lesson\17.02.2022\ApiDemo\ApiDemo\bin\System.Web.Cors.dll
+D:\Zahra Amrahova Programming Lesson\17.02.2022\ApiDemo\ApiDemo\bin\System.Web.Http.Cors.dll
+D:\Zahra Amrahova Programming Lesson\17.02.2022\ApiDemo\ApiDemo\bin\System.Web.Http.Cors.xml

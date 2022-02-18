@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Departments</h2>
+
+<ul class="list-group" id="department-list">
+
+    <li class="list-group-item"></li>
+</ul>
+
+@section scripts {
+    <script>
+
+        $.ajax({
+
+            url: "https://localhost:44325/api/department",
+            method: "get",
+            headers: { "token": localStorage.getItem("token")},
+            success: function (response) {
+               
+                console.log(response);
+            },
+            error: function (error) {
+                console.log(error);
+            }
+
+        });
+
+    </script>
+    
+    }
